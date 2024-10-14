@@ -7,6 +7,10 @@ public class concateString {
         Scanner sc = new Scanner(System.in);
         String str1 = sc.nextLine();
         String str2 = sc.nextLine();
-        System.out.println(str1+str2);
+        if (str1.length() < str2.length()) {
+            System.out.println(str1 + str2 + str1);
+        } else {
+            System.out.println(str2 + str1 + str1);
+        }
     }
 }
