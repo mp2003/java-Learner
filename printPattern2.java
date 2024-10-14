@@ -6,10 +6,12 @@ public class printPattern2 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
-        int start = 13;
-        while (start >= n) {
-            System.out.print(start + 8 + " ");
-            start = start + 8;
+        int start = n;
+        while (start >= 1) {
+            if (start % 8 == 0) {
+                System.out.print(start + " ");
+            }
+            start = start - 1;
         }
     }
 }
