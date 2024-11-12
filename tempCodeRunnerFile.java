@@ -1,13 +1,13 @@
-for (int i = 0; i <= n; i++) {
-             k = (n - i + 1); k > 0 k--) {
-        S ystem.out.print("*");
-            
-        
-            for (int j = 2 * (i - 1); j >= 0; j--) {
-                System.out.print(" ");
-            }
-            for (int k = (n - i + 1); k > 0; k--) {
-                System.out.print("*");
-            }
-            System.out.println();
-        }
+for (int i = n; i > 0; i -= 2) {
+        //     for (int k = 0; k < (n - i) / 2; k++) {
+        //         System.out.print("\t");
+        //     }
+        //     for (int j = 0; j < i; j++) {
+        //         if (j == 0 || j == i - 1) {
+        //             System.out.print("*\t");
+        //         } else {
+        //             System.out.print("\t");
+        //         }
+        //     }
+        //     System.out.println();
+        // }
